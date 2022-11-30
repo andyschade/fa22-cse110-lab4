@@ -30,3 +30,8 @@
     - F) true -> true because Boolean of 2 is non empty and therefor equal to the type boolean value of true.
 15) The == operator is a regular equality check that cannot differentiate between values like 0 and false. And === is a strict equality check that checks the equality without doing any sort of "type conversion".
 17) The result is the array [1, 2, 3] is modified by the doSomething function. Each of the values in the array are individually called into the doSomething function which multiplies them by 2. Then the resulting value is pushed to a new array called newArr. thus a new array newArr is created holding the values [2, 4, 6] in this particular case.
+19) the output of the code above is:
+    - 1
+    - 4
+    - 3
+    - 2
