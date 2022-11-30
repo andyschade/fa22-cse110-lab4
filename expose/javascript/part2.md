@@ -9,23 +9,23 @@
 9) At line 11 there is an error because let i is not defined outside of the for-loop.
 10) At line 12 the length of this list is printed which is just the value 3. This is beacuse the variable length is inscope and unchnage since it is instantiaded at line 4.
 11) Function discountedPrices returns a list of the prices list with the discount applied. In this case the function returns [50, 100, 150]. This is because 100,200, and 300 with the 0.5 discount applied is 50, 100, and 150.
-12) A) student.name
-    B) student['Grad Year']
-    C) student.greeting()
-    D) student['Favorite Teacher'].name
-    E) student.courseLoad[0]
-13) A) 32  -> 3 and 2 are added together as strings
-    B) 1   -> 3 and 2 are subtracted as numbers
-    C) 3   -> 3 is added to null or 0 so = 3
-    D) 3null -> 3 and null are added together as strings
-    E) 4    -> true acts as a 1 to make 3+1 =4
-    F) 0    -> false and null act as 0 to make 0+0=0
-    G) 3undefined -> undefined changes type to sting to concat with 3
-    H) NaN -> undefined is uncomputable so NAN is returned
-14) A) true ->true because string '2' is type casted to int 2 and greater than 1
-    B) false -> false because string '2' is greater than string '12' because it looks at first chararcter in string.
-    C) true -> true because '2' is type casted to 2
-    D) false -> false because 2 and '2' are not the same type
-    E) false -> false because true is == to int value 1
-    F) true -> true because Boolean of 2 is non empty and therefor equal to the type boolean value of true.
+12) - A) student.name
+    - B) student['Grad Year']
+    - C) student.greeting()
+    - D) student['Favorite Teacher'].name
+    - E) student.courseLoad[0]
+13) - A) 32  -> 3 and 2 are added together as strings
+    - B) 1   -> 3 and 2 are subtracted as numbers
+    - C) 3   -> 3 is added to null or 0 so = 3
+    - D) 3null -> 3 and null are added together as strings
+    - E) 4    -> true acts as a 1 to make 3+1 =4
+    - F) 0    -> false and null act as 0 to make 0+0=0
+    - G) 3undefined -> undefined changes type to sting to concat with 3
+    - H) NaN -> undefined is uncomputable so NAN is returned
+14) - A) true ->true because string '2' is type casted to int 2 and greater than 1
+    - B) false -> false because string '2' is greater than string '12' because it looks at first chararcter in string.
+    - C) true -> true because '2' is type casted to 2
+    - D) false -> false because 2 and '2' are not the same type
+    - E) false -> false because true is == to int value 1
+    - F) true -> true because Boolean of 2 is non empty and therefor equal to the type boolean value of true.
 15) The == operator is a regular equality check that cannot differentiate between values like 0 and false. And === is a strict equality check that checks the equality without doing any sort of "type conversion".
